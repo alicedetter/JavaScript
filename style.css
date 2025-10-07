@@ -10,8 +10,14 @@ body{
 }
 div{
     width: 200px;
-    height: 100px;
+    height: 200px;
     background: rgba(175, 175, 175, 0.133);
-    display:flex;
-    justify-content:center;
+    display:grid;
+    place-content:center;
+}
+.first{
+  display:grid;
+}
+.andra{
+  display:none;
 }
